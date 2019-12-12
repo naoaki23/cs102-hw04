@@ -26,7 +26,7 @@ for i in range(width):
         if G > 0:
             G += 50
         if B > 0:
-            B += 75
+            B += 80
 
         new_img.putpixel((i, j), (R, G, B))
 
